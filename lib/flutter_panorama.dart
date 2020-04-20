@@ -64,8 +64,8 @@ class FlutterPanorama extends StatelessWidget {
           throw UnsupportedError(
               "Trying to use the default panorama implementation for $defaultTargetPlatform but there isn't a default one");
       }
-      return _platform;
     }
+    return _platform;
   }
 
   @override
